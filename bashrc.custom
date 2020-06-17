@@ -1,0 +1,4 @@
+alias setup-project="git init && touch README.md LICENSE.md .gitignore && cat ~/.dotfiles/.gitignore.default > .gitignore && cat ~/.dotfiles/license.default.md > LICENSE.md"
+alias archive-git="git archive --format zip --output archive.zip"
+alias mount-storage="udisksctl mount -b /dev/sdb2"
+alias unmount-storage="udisksctl unmount -b /dev/sdb2"

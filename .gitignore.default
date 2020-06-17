@@ -1,0 +1,5 @@
+.vscode/
+env/
+*.tfstate
+.terraform/
+*.pyc
